@@ -20,7 +20,6 @@ LimitNOFILE=65536
 User=nexus
 Group=nexus
 ExecStart=/app/nexus/bin/nexus start
-ExecStop=/app/nexus/bin/nexus stop
 User=nexus
 Restart=on-abort
 
